@@ -1,6 +1,10 @@
 
-typedef struct {
-  // TODO: define your structure here
+typedef struct
+{
+  char *tile;
+  char *link;
+  char *date;
+  char *description;
 } Rss;
 
 /**
