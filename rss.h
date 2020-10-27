@@ -3,7 +3,7 @@ typedef struct
 {
   char *tile;
   char *link;
-  char *date;
+  struct tm date;
   char *description;
 } Rss;
 
