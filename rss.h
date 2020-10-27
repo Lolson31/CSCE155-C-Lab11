@@ -1,7 +1,7 @@
 
 typedef struct
 {
-  char *tile;
+  char *title;
   char *link;
   struct tm date;
   char *description;
