@@ -8,7 +8,7 @@ Name(s) and Login(s):Luke Olson (laolson)
 
 1. Which RSS feed did you choose and what is the most recent
    story published through it?
-
+   
 
 
 2. How many stories were available on the RSS feed when you

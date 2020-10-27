@@ -5,7 +5,6 @@
 #include <netinet/in.h>
 #include <netdb.h>
 #include <string.h>
-#include <time.h>
 
 #include <libxml/parser.h>
 #include <libxml/tree.h>

@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <time.h> not sure
 
 #include "rss.h"
 
@@ -22,7 +21,8 @@ Rss * createRss(const char * title, const char * link, const char * date, const 
   rss -> link = (char *)malloc(sizeof(char) * (strlen(link) + 1));
   strcpy(rss -> link, link);
 
-  strptime(date, "%m/%d/%Y", &(rss -> date));
+  rss -> date = (char *)malloc(sizeof(char) * (strlen(date) + 1));
+  strcpy(rss -> date, date);
 
   rss -> description = (char *)malloc(sizeof(char) * (strlen(description) + 1));
   strcpy(rss -> description, description);
