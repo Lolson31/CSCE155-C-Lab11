@@ -32,5 +32,5 @@ Rss * createRss(const char * title, const char * link, const char * date, const 
 
 void printRss(Rss * item)
 {
-  printf("%s, %s, %s, %s\n", item -> title, item -> link, item -> date, item -> description);
+  printf("Title: %s\n\n Link: %s\n\n Date: %s\n\n Desc: %s\n\n", item -> title, item -> link, item -> date, item -> description);
 }
