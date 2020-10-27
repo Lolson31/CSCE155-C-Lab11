@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
+#include <time.h> not sure
 
 #include "rss.h"
 
@@ -32,5 +32,5 @@ Rss * createRss(const char * title, const char * link, const char * date, const 
 
 void printRss(Rss * item)
 {
-  printf("%s\n", item);
+  //printf("%s\n", item);
 }
